@@ -1,4 +1,6 @@
 import { fluxoMostrarLivros } from "./fluxos/mostrarDados.js";
+import { verificaIdLivro } from "./services/buscarLivroId.js";
+import { verificaIdUsuario } from "./services/buscarUserId.js";
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
@@ -29,4 +31,7 @@ function menu() {
     }
   }
 }
-menu();
+// menu();
+
+console.log(verificaIdLivro(2));
+console.log(verificaIdUsuario(2));

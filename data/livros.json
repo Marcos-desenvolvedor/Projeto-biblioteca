@@ -1,34 +1,32 @@
 [
-  [
-    {
-      "id": 1,
-      "titulo": "Lógica de Programação",
-      "autor": "Paulo Silveira",
-      "estoque": 3
-    },
-    {
-      "id": 2,
-      "titulo": "JavaScript do Básico ao Avançado",
-      "autor": "Guilherme Silveira",
-      "estoque": 2
-    },
-    {
-      "id": 3,
-      "titulo": "Node.js na Prática",
-      "autor": "Erick Wendel",
-      "estoque": 1
-    },
-    {
-      "id": 4,
-      "titulo": "Estruturas de Dados com JavaScript",
-      "autor": "Loiane Groner",
-      "estoque": 4
-    },
-    {
-      "id": 5,
-      "titulo": "Clean Code",
-      "autor": "Robert C. Martin",
-      "estoque": 2
-    }
-  ]
+  {
+    "id": 1,
+    "titulo": "Lógica de Programação",
+    "autor": "Paulo Silveira",
+    "estoque": 3
+  },
+  {
+    "id": 2,
+    "titulo": "JavaScript do Básico ao Avançado",
+    "autor": "Guilherme Silveira",
+    "estoque": 2
+  },
+  {
+    "id": 3,
+    "titulo": "Node.js na Prática",
+    "autor": "Erick Wendel",
+    "estoque": 1
+  },
+  {
+    "id": 4,
+    "titulo": "Estruturas de Dados com JavaScript",
+    "autor": "Loiane Groner",
+    "estoque": 4
+  },
+  {
+    "id": 5,
+    "titulo": "Clean Code",
+    "autor": "Robert C. Martin",
+    "estoque": 2
+  }
 ]
