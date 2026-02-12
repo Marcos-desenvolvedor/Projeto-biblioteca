@@ -1,3 +1,4 @@
+import { fluxoEmprestimo } from "./fluxos/emprestimo.js";
 import { fluxoMostrarLivros } from "./fluxos/mostrarDados.js";
 import { verificaIdLivro } from "./services/buscarLivroId.js";
 import { verificaIdUsuario } from "./services/buscarUserId.js";
@@ -17,7 +18,7 @@ function menu() {
 
     switch (opcao) {
       case "1":
-        "REGISTRAR EMPRESTIMOS";
+        fluxoEmprestimo();
         break;
       case "2":
         fluxoMostrarLivros();
@@ -31,7 +32,5 @@ function menu() {
     }
   }
 }
-// menu();
 
-console.log(verificaIdLivro(2));
-console.log(verificaIdUsuario(2));
+menu();

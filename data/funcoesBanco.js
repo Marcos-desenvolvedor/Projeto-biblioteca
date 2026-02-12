@@ -7,5 +7,5 @@ export function lerBanco(caminho) {
 
 export function salvarBanco(caminho, dados) {
   const texto = JSON.stringify(dados, null, 2);
-  fs.writeFileSync(caminho, texto, "útf-8");
+  fs.writeFileSync(caminho, texto, "utf-8");
 }

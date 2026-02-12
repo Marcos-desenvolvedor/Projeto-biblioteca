@@ -1,0 +1,9 @@
+[
+  {
+    "idEmprestimo": 1,
+    "livroID": 1,
+    "usuarioID": 1,
+    "dataEmprestimo": "2026-02-11T23:33:24.471Z",
+    "devolvido": false
+  }
+]
