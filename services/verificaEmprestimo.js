@@ -21,7 +21,7 @@ export function verificaEmprestimo(dados) {
   if (jaTemEmprestimoAtivo) {
     return {
       ok: false,
-      mensagem: "Você já pegou esse livro e ainda não devolveu",
+      mesagem: "Você já pegou esse livro e ainda não devolveu",
     };
   }
 

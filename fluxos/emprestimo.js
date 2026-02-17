@@ -28,9 +28,9 @@ export function fluxoEmprestimo() {
   const resutadoEmprestimo = verificaEmprestimo(dados);
 
   if (!resutadoEmprestimo.ok) {
-    console.log(resutadoEmprestimo.mensagem);
+    console.log(resutadoEmprestimo.mesagem);
     return;
   }
 
-  console.log(resutadoEmprestimo.mensagem);
+  console.log(resutadoEmprestimo.mesagem);
 }

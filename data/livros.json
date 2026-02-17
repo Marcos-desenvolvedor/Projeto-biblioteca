@@ -3,25 +3,25 @@
     "id": 1,
     "titulo": "Lógica de Programação",
     "autor": "Paulo Silveira",
-    "estoque": 2
+    "estoque": 1
   },
   {
     "id": 2,
     "titulo": "JavaScript do Básico ao Avançado",
     "autor": "Guilherme Silveira",
-    "estoque": 1
+    "estoque": 0
   },
   {
     "id": 3,
     "titulo": "Node.js na Prática",
     "autor": "Erick Wendel",
-    "estoque": 1
+    "estoque": 0
   },
   {
     "id": 4,
     "titulo": "Estruturas de Dados com JavaScript",
     "autor": "Loiane Groner",
-    "estoque": 4
+    "estoque": 3
   },
   {
     "id": 5,

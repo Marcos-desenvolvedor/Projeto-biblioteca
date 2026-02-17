@@ -12,5 +12,33 @@
     "usuarioID": 1,
     "dataEmprestimo": "2026-02-12T21:22:18.479Z",
     "devolvido": false
+  },
+  {
+    "idEmprestimo": 3,
+    "livroID": 1,
+    "usuarioID": 2,
+    "dataEmprestimo": "2026-02-17T00:53:09.402Z",
+    "devolvido": false
+  },
+  {
+    "idEmprestimo": 4,
+    "livroID": 2,
+    "usuarioID": 3,
+    "dataEmprestimo": "2026-02-17T00:55:20.743Z",
+    "devolvido": false
+  },
+  {
+    "idEmprestimo": 5,
+    "livroID": 3,
+    "usuarioID": 2,
+    "dataEmprestimo": "2026-02-17T00:55:26.719Z",
+    "devolvido": false
+  },
+  {
+    "idEmprestimo": 6,
+    "livroID": 4,
+    "usuarioID": 2,
+    "dataEmprestimo": "2026-02-17T00:57:26.467Z",
+    "devolvido": false
   }
 ]
