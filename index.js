@@ -1,7 +1,10 @@
 import { fluxoEmprestimo } from "./fluxos/emprestimo.js";
-import { fluxoMostrarLivros } from "./fluxos/mostrarDados.js";
+import {
+  fluxoDevolverLivro,
+  fluxoMostrarLivros,
+} from "./fluxos/mostrarDados.js";
 import { fluxoMostarEmprestimos } from "./fluxos/mostrarDados.js";
-import { buscarEmprestimo } from "./services/buscarEmprestimo.js";
+
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
@@ -10,8 +13,9 @@ function menu() {
         ---- MENU ----
 1 - REGISTRAR EMPRESTIMOS
 2 - MOSTRAR LIVROS DISPONÍVEIS
-3 - MOSTRAR EMPRESTIMOS
-4 - SAIR DO PROGAMA
+3 - DEVOLVER LIVRO
+4 - MOSTRAR EMPRESTIMOS
+5 - SAIR DO PROGAMA
     `);
 
   while (true) {
@@ -25,9 +29,12 @@ function menu() {
         fluxoMostrarLivros();
         break;
       case "3":
-        fluxoMostarEmprestimos();
+        fluxoDevolverLivro();
         break;
       case "4":
+        fluxoMostarEmprestimos();
+        break;
+      case "5":
         console.log("SAINDO DO PROGAMA");
         return;
       default:
@@ -37,10 +44,4 @@ function menu() {
   }
 }
 
-// menu();
-const resultado = buscarEmprestimo({
-  idUsuario: 2,
-  idLivro: 3,
-});
-
-console.log(resultado.mensagem);
+menu();

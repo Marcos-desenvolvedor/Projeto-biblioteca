@@ -25,7 +25,7 @@
     "livroID": 2,
     "usuarioID": 3,
     "dataEmprestimo": "2026-02-17T00:55:20.743Z",
-    "devolvido": false
+    "devolvido": true
   },
   {
     "idEmprestimo": 5,
@@ -53,6 +53,20 @@
     "livroID": 3,
     "usuarioID": 2,
     "dataEmprestimo": "2026-02-17T00:55:26.719Z",
+    "devolvido": true
+  },
+  {
+    "idEmprestimo": 5,
+    "livroID": 3,
+    "usuarioID": 2,
+    "dataEmprestimo": "2026-02-17T00:55:26.719Z",
+    "devolvido": true
+  },
+  {
+    "idEmprestimo": 4,
+    "livroID": 2,
+    "usuarioID": 3,
+    "dataEmprestimo": "2026-02-17T00:55:20.743Z",
     "devolvido": true
   }
 ]

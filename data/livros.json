@@ -9,7 +9,7 @@
     "id": 2,
     "titulo": "JavaScript do Básico ao Avançado",
     "autor": "Guilherme Silveira",
-    "estoque": 0
+    "estoque": 1
   },
   {
     "id": 3,
@@ -39,6 +39,18 @@
     "id": 3,
     "titulo": "Node.js na Prática",
     "autor": "Erick Wendel",
+    "estoque": 1
+  },
+  {
+    "id": 3,
+    "titulo": "Node.js na Prática",
+    "autor": "Erick Wendel",
+    "estoque": 1
+  },
+  {
+    "id": 2,
+    "titulo": "JavaScript do Básico ao Avançado",
+    "autor": "Guilherme Silveira",
     "estoque": 1
   }
 ]

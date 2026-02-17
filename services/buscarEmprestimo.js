@@ -11,8 +11,6 @@ export function buscarEmprestimo(dados) {
     (e) => e.livroID === dados.idLivro && e.usuarioID === dados.idUsuario,
   );
 
-  console.log(emprestimoExite);
-
   if (emprestimoExite) {
     const livro = livros.find((l) => l.id === emprestimoExite.livroID);
 
