@@ -1,6 +1,7 @@
 import { fluxoEmprestimo } from "./fluxos/emprestimo.js";
 import { fluxoMostrarLivros } from "./fluxos/mostrarDados.js";
 import { fluxoMostarEmprestimos } from "./fluxos/mostrarDados.js";
+import { buscarEmprestimo } from "./services/buscarEmprestimo.js";
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
@@ -36,4 +37,10 @@ function menu() {
   }
 }
 
-menu();
+// menu();
+const resultado = buscarEmprestimo({
+  idUsuario: 2,
+  idLivro: 3,
+});
+
+console.log(resultado.mensagem);

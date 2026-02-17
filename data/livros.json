@@ -28,5 +28,17 @@
     "titulo": "Clean Code",
     "autor": "Robert C. Martin",
     "estoque": 2
+  },
+  {
+    "id": 3,
+    "titulo": "Node.js na Prática",
+    "autor": "Erick Wendel",
+    "estoque": 1
+  },
+  {
+    "id": 3,
+    "titulo": "Node.js na Prática",
+    "autor": "Erick Wendel",
+    "estoque": 1
   }
 ]
