@@ -40,5 +40,12 @@
     "usuarioID": 2,
     "dataEmprestimo": "2026-02-17T00:57:26.467Z",
     "devolvido": false
+  },
+  {
+    "idEmprestimo": 7,
+    "livroID": 4,
+    "usuarioID": 3,
+    "dataEmprestimo": "2026-02-17T15:01:56.655Z",
+    "devolvido": false
   }
 ]
